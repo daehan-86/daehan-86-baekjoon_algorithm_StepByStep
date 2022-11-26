@@ -7,7 +7,7 @@ int main(void){
 	string st;
 	getline(cin,st);
 	int state=0;
-	for(char c : st){
+	for(char c : st){ // 반복문 참고하자.... 어디가 끝일지 모를때 쓰는 방법
 		if(state){
 			if(c=='<')state++;
 			else if(c=='>')state--;

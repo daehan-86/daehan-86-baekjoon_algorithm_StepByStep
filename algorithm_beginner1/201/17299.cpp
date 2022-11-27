@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stack>
 using namespace std;
-int result[1000001],cnt[1000001],a[1000001];
+int result[1000001], cnt[1000001], a[1000001];
 int main(void){
 	int n,k;
 	cin>>n;

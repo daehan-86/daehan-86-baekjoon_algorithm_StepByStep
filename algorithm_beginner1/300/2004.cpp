@@ -7,6 +7,7 @@ int cnt(int n,int k){
 	}
 	return ret;
 }
+
 int main(void){
 	int n,m;
 	cin>>n>>m;

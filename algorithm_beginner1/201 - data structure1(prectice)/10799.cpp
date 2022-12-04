@@ -2,7 +2,6 @@
 #include<stack>
 #include<string>
 using namespace std;
-
 int main(void){
 	string s;
 	int k=0, result=0;

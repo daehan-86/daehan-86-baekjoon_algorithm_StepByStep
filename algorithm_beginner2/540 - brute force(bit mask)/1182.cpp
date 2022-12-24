@@ -3,7 +3,6 @@ using namespace std;
 int n,k,v[21],res;
 void br(int t,int p,int s){
 	if(n-1==p){
-		printf("%d %d\n",t,s);
 		if(t>0&&s==k) res++;
 		return;
 	}

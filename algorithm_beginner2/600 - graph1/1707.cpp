@@ -43,7 +43,7 @@ int main(void){
 		}
 		if(state) printf("NO\n");
 		else printf("YES\n");
-		delete []v;
+		delete[]v;
 	}
 	return 0;
 }

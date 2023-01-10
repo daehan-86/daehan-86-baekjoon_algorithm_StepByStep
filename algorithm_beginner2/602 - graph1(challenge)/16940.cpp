@@ -22,11 +22,9 @@ int main(void){
 		int k=2;
 		while(!q.empty()){
 			int x=q.front();
-			printf("%d\n",x);
 			q.pop();
 			for(int i=1;i<(int)v[x].size();i++,k++){
 				auto it=find(v[x].begin(),v[x].end(),arr[k]);
-				printf("%d %d\n",k,arr[k]);
 				if(it==v[x].end()){
 					printf("0");
 					return 0;

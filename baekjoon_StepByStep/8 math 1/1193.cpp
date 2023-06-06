@@ -4,7 +4,7 @@ using namespace std;
 int main(void){
 	int n,i;
 	cin>>n;
-	for(i=1;i<3200;i++)
+	for(i=1;i<5000;i++)
 		if(2*n-(i*i+i)<=0)break;
 	i--;
 	int a=n-(i*i+i)/2;

@@ -2,8 +2,8 @@
 using namespace std;
 
 int main(void){
-	int a,b;
-	scanf("%d %d",&a,&b);
-	printf("%d",a*b);
+	long long n;
+	cin>>n;
+	cout<<4*n;
 	return 0;
 }

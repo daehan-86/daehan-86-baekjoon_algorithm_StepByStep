@@ -22,7 +22,7 @@ int main(void){
 		x=q.front();
 		q.pop();
 		res[x]=k++;
-		sort(v[x].begin(),v[x].end());
+		sort(v[x].begin(),v[x].end(),greater<int>());
 		for(int o:v[x]){
 			if(!visit[o]){
 				visit[o]=1;
